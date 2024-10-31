@@ -97,7 +97,7 @@ article {
   color: var(--orange-yellow-crayola);
   box-shadow: var(--shadow-1);
   z-index: 1;
-  border: solid 1.5px var(--jet);
+  border: solid 1px var(--jet);
 }
 
 .h2,
@@ -358,11 +358,7 @@ footer {
 
   .navbar-link { --fs-8: 14px; }
 
-
-
-  /**
-   * #ABOUT
-   */
+  /* Sobre */
 
   .about .article-title { margin-bottom: 20px; }
 
@@ -447,20 +443,11 @@ footer {
 
   .sidebar-info { flex-direction: column; }
 
-  .avatar-box img { width: 150px; }
+  .avatar-box img { width: 180px; }
 
   .info-content .name {
     white-space: nowrap;
     text-align: center;
-  }
-
-  .info-content .title { margin: auto; }
-
-  .info_more-btn { display: none; }
-
-  .sidebar-info_more {
-    opacity: 1;
-    visibility: visible;
   }
 
   .contacts-list { grid-template-columns: 1fr; }
